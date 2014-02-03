@@ -1,0 +1,20 @@
+{
+    "name": "devhook/asset",
+    "description": "",
+    "authors": [
+        {
+            "name": "Dmitriy Burim",
+            "email": "d.bourim@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Devhook\\Asset\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
